@@ -3,6 +3,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import datenight from '../images/datenight.gif';
 import jate from '../images/JATE.png';
 import PokeNect from '../images/Pokenect.png';
+import CuttingEdge from '../images/CuttingEdgePro.png'
 
 function Projects() {
     return (
@@ -51,12 +52,14 @@ function Projects() {
             <CardGroup className="my-3 mx-3">
 
                 <Card className=" mx-3 " >
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src={CuttingEdge} />
                     <Card.Body>
-                        <Card.Title>Your Project here!</Card.Title>
+                        <Card.Title>Cutting Edge Pro</Card.Title>
                         <Card.Text>
-                            I am always looking for new projects!
+                            An e-commerece React app that uses GraphQL for the backend and allows users to upload an image to be used.
                         </Card.Text>
+                        <Card.Link href="https://github.com/MichaelZimm20/cutting-edge-pro">Github</Card.Link>
+                        <Card.Link href="https://cutting-edge-pro-max.herokuapp.com/ ">Deployed Link</Card.Link>
                     </Card.Body>
 
                 </Card>
